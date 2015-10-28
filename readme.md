@@ -2,10 +2,10 @@
 ### First time Installation
 On your project folder, run this syntax:
 
-php artisan vendor:publish --provider="Bican\Roles\RolesServiceProvider" --tag=config
+php artisan vendor:publish --provider="Bican\Roles\RolesServiceProvider" --tag=config<br/>
 php artisan vendor:publish --provider="Bican\Roles\RolesServiceProvider" --tag=migrations
 
-php artisan migrate
+php artisan migrate</br>
 php artisan db:seed
 
 ### after installation
